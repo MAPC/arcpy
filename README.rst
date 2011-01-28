@@ -12,7 +12,7 @@ Scope
 Dependencies
 ============
 
-* ESRI ArcGIS 10
+* ESRI ArcGIS 10 arcpy
 
 MAPC
 ====
