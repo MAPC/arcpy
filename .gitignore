@@ -1,0 +1,6 @@
+# excluded files
+.project
+.tmp*
+*.sqlite
+*.pyc
+.pydevproject
