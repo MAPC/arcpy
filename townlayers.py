@@ -20,7 +20,9 @@ townGroup = arcpy.mapping.ListLayers(mxd, "Town Layers", df)[0]
 towns = arcpy.SearchCursor(fc)
 
 for town in towns:
-    
+
+    townLayer = arcpy.mapping.Layer(r'C:/dev/python/arcpy/lyr/town-template.lyr')
+	
     townName = town.getValue('name')
     
     # adjusting name and definition query
